@@ -1,0 +1,41 @@
+{
+  "name": "todoList",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --mode development && webpack-dev-server --inline --hot",
+    "build": "webpack --mode production",
+    "server": "nodemon ./src/server/server.js",
+    "build:db": "nodemon ./src/server/index.js"
+  },
+  "dependencies": {
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4",
+    "@types/styled-components": "^4.1.16",
+    "@types/uuid": "^3.4.4",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "i": "^0.3.6",
+    "mongoose": "^5.5.13",
+    "npm": "^6.9.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "css-loader": "^2.1.1",
+    "global": "^4.3.2",
+    "html-webpack-plugin": "^3.2.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.1",
+    "tslint": "^5.17.0",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.5.1",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.3",
+    "webpack-dev-server": "^3.7.1"
+  }
+}
